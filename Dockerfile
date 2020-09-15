@@ -1,4 +1,4 @@
-FROM brooksp/gcc-arm-none-eabi-9
+FROM brooksp/gcc-arm-none-eabi:9
 LABEL maintainer="Brooks Prumo <brooks@prumo.org>"
 
 RUN apt-get update && apt-get install -q -y --no-install-recommends \
